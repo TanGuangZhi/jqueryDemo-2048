@@ -1,0 +1,61 @@
+#header {
+    width: 100th;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font: bold 50px Arial;
+    color: bisque;
+}
+
+.author {
+    color: rgb(112, 112, 247);
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+#newGame {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#newGame:hover {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(128, 138, 76);
+}
+
+#newGameAndScore {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+}
+
+.main-container {
+    width: 460px;
+    height: 460px;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: rgb(199, 136, 77);
+    margin: 10px auto;
+    position: relative;
+}
+
+#main-container .container-cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 208, 190);
+    border-radius: 6px;
+    position: absolute;
+}
+
+#main-container .num-cell {
+    border-radius: 6px;
+    position: absolute;
+    font: bold 50px Arial;
+    text-align: center;
+    line-height: 100px;
+}
